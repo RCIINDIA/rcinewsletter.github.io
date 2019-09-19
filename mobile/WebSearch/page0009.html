@@ -1,0 +1,167 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+<title>123123</title>
+<META NAME="description" content="Book -MegaZine3 页码，9/20This also effects some other behaviour to stay consistent, e.g. the startpageattribute works "the other way around", i.e. it counts from right to left in ltr="false" mode. If">
+
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style>
+body { margin: 0px; overflow:hidden }
+</style>
+
+<script type="text/javascript">
+  var errorName = null;
+    function isBrowserSupportPlugin() {
+        var supported = null; 
+        try {
+            new ActiveXObject("");
+        }
+        catch (e) {
+            // FF has ReferenceError here
+            errorName = e.name; 
+        }     
+        try {
+            supported = !!new ActiveXObject("htmlfile");
+        } catch (e) {
+            supported = false;
+        }
+        if(errorName != 'ReferenceError' && supported==false){
+            supported = false;
+        }else{
+            supported =true;
+        }
+        return supported;
+    }
+
+  function isMetroIE() {
+    var matchIE = /MSIE\s([\d.]+)/;
+    if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())
+      return true;
+    else 
+      return false;
+  }
+  
+  var iRegex = /android|(iP(hone|ad))/i;
+  if (iRegex.test(navigator.userAgent) || isMetroIE()){
+      var url= "../html5.html?page=8";
+      if( false &&  window.parent)
+         window.parent.location=url;
+      else
+         window.location =url;
+   }
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" MARGINHEIGHT="0" MARGINWIDTH="0" scroll="no">
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=9",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+
+<noscript>
+Book -MegaZine3 页码，9/20This also effects some other behaviour to stay consistent, e.g. the startpageattribute works "the other way around", i.e. it counts from right to left in ltr="false" mode. If the navigationbarplugin is loaded, the displayed page numbers will also be adjusted accordingly.maxloaded ■ Type:Integer■ Default:22The maximum number of pages that may be present in memory at a time. I.e. only this number of pages will be loaded, and after that new pages will only be loaded after changing the current page. Then the pages left and right to the current one will be loaded until this many pages are present in memory again -pages "further away" than half of this number will be unloaded (removed from memory).This helps books with a lot of content, such as catalogs, to not use an excessive amount of memory (RAM) at a time. It also reduces bandwidth consumption, because only the necessary pages are loaded -plus some more, so that the user does not have to wait after every page change.For values greater than 0 books with that many pages or less all pages will be loaded and kept in memory. In case 0 is given, all pages of the book will be loaded to memory, regardless of how many pages there are.This value represents the number single pages loaded to memory. In case of the default value (22) the current double page (2) and five more double pages to each the left and the right (2*10) will be loaded.One final remark: Flash caches data once it was loaded on the local drive, which means that once a page has been loaded it will afterward be be loaded from disk, even if it was removed from memory. It will therefore be displayed again almost immediately, and no additional bandwidth will be used.maxthickness ■ Type:Number■ Default:30The maximum thickness of the book to simulate. This is the screenspace in pixels that may be used to simulate the book's edges.Note:the actualthickness of the book depends on the number of pages in the book, and the value of the pagethicknessattribute. This value only exists to have an easier way of capping the thickness.navbarbehindbook ■ Type:Boolean■ Default:false■ Version:2.1.2If activated, the book always will be in front of the navigationbar.noasul ■ Type:Boolean■ Default:falseIf activated, this tells the engine to not load any ASUL definitions at all (neither for the engine core, nor for the plugins). This may be useful when wanting to create a very puristic implementation that does not depend on external files.http://www.megazine3.de/doc/Book 2013/9/3
+</noscript>
+
+
+</body>
+</html>

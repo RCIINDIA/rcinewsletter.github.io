@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+	<!-- 
+<language content="csy" /> 
+<language content="dan" />
+ -->
+	<language content="eng" default="yes"/>
+	<language content="jpn"/>
+	<language content="fra"/>
+	<language content="deu"/>
+	<language content="esn"/>
+	<language content="ptg"/>
+	<language content="chs"/>
+	<language content="cht"/>
+	<language content="nld"/>
+	<language content="rus"/>
+	<language content="arb"/>
+	<language content="kor"/>
+	<language content="ita"/>
+	<language content="nor"/>
+	<language content="heb"/>
+	<language content="sve"/>
+	<language content="den"/>
+	<language content="hun"/>
+	<language content="tur"/> 
+ --&gt; 
+</languages>

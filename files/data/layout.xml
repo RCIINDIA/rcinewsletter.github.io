@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="4.2.1" name="tech" category="float">
+  <megazine>
+    <title color="5395026" font="Verdana" size="12" bold="true" underline="false" italic="false" url=""/>
+    <megazinebg background="image(files/assets/skin/bg.png)" backgroundrepeat="true"/>
+  </megazine>
+  <navigation>
+    <title color="5395026" font="Verdana" size="12" bold="true" underline="false" italic="false" url=""/>
+    <navbottombar background="image(files/assets/skin/bar_bottom.png)" scale9grid="12,6,13,7"/>
+    <navtopbar background="image(files/assets/skin/bar_top.png)" scale9grid="6,6,7,7"/>
+    <navbutton width="0" height="0"/>
+  </navigation>
+  <thumbnails>
+    <btn_up background="color(0x7F3F3F3F)"/>
+    <btn_down background="color(0x7F3F3F3F)"/>
+    <contents background="color(0x7F676767)"/>
+    <content>
+      <up background=""/>
+      <toggle background="color(0x7FD0D0D0)"/>
+    </content>
+  </thumbnails>
+  <toc>
+    <contents background="color(0x7F676767)"/>
+  </toc>
+  <search>
+    <btn_up background="color(0x7F3F3F3F)"/>
+    <btn_down background="color(0x7F3F3F3F)"/>
+    <contents background="color(0x7F676767)"/>
+    <content>
+      <up background="color(0x7FD0D0D0)"/>
+      <over background="color(0xDADADA)"/>
+      <down background="color(0xDADADA)"/>
+    </content>
+  </search>
+  <bookmarks>
+    <btn_up background="color(0x7F3F3F3F)"/>
+    <btn_down background="color(0x7F3F3F3F)"/>
+    <contents background="color(0x7F676767)"/>
+    <content>
+      <up background="color(0x7FD0D0D0)"/>
+      <over background="color(0xDADADA)"/>
+      <down background="color(0xDADADA)"/>
+    </content>
+  </bookmarks>
+  <bookcase>
+    <btn_up background="color(0x7F3F3F3F)"/>
+    <btn_down background="color(0x7F3F3F3F)"/>
+    <contents background="color(0x7F676767)"/>
+    <content>
+      <up background="color(0x7FD0D0D0)"/>
+      <over background="color(0xDADADA)"/>
+      <down background="color(0xDADADA)"/>
+    </content>
+  </bookcase>
+  <anchorsinfo>
+    <mzanchors normal="60,80,pw-60,ph-88" left="5+20+320,80,pw-50-20,ph-88" leftmini="225,80,pw-50,ph-88" bottom="60,80,pw-60,ph-200"/>
+  </anchorsinfo>
+  <floatanchors>
+    <magazine normal="" left="" leftmini=""/>
+    <innerbg normal="50,68,pw-50,ph-75" left="5+320,68,pw-50,ph-75" leftmini="205,68,pw-50,ph-75"/>
+    <topbar normal="50,30,pw-50,70" left="5+320,30,pw-50,70" leftmini="205,30,pw-50,70"/>
+    <bottombar normal="50,ph-52-20,pw-50,ph-20" left="50,ph-52-20,pw-50,ph-20" leftmini="50,ph-52-20,pw-50,ph-20"/>
+  </floatanchors>
+  <brand alpha="1" background="image()" anchors="pw-20-w, ph-20-h, pw-20, ph-20" url="" target="_blank" width="100" height="100"/>
+</layout>

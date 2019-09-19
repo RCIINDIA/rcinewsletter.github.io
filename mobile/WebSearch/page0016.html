@@ -1,0 +1,167 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+<title>123123</title>
+<META NAME="description" content="Book -MegaZine3 页码，16/20The images have to be in JPGformat, and must be named with numbers according to the page they represent, i.e. 0.jpg, 1.jpg, 2.jpg, ...(numbering starts at 0, so the left cov">
+
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style>
+body { margin: 0px; overflow:hidden }
+</style>
+
+<script type="text/javascript">
+  var errorName = null;
+    function isBrowserSupportPlugin() {
+        var supported = null; 
+        try {
+            new ActiveXObject("");
+        }
+        catch (e) {
+            // FF has ReferenceError here
+            errorName = e.name; 
+        }     
+        try {
+            supported = !!new ActiveXObject("htmlfile");
+        } catch (e) {
+            supported = false;
+        }
+        if(errorName != 'ReferenceError' && supported==false){
+            supported = false;
+        }else{
+            supported =true;
+        }
+        return supported;
+    }
+
+  function isMetroIE() {
+    var matchIE = /MSIE\s([\d.]+)/;
+    if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())
+      return true;
+    else 
+      return false;
+  }
+  
+  var iRegex = /android|(iP(hone|ad))/i;
+  if (iRegex.test(navigator.userAgent) || isMetroIE()){
+      var url= "../html5.html?page=15";
+      if( false &&  window.parent)
+         window.parent.location=url;
+      else
+         window.location =url;
+   }
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" MARGINHEIGHT="0" MARGINWIDTH="0" scroll="no">
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=16",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+
+<noscript>
+Book -MegaZine3 页码，16/20The images have to be in JPGformat, and must be named with numbers according to the page they represent, i.e. 0.jpg, 1.jpg, 2.jpg, ...(numbering starts at 0, so the left cover page is 0). Note that these numbers represent the page indexesmeaning they are not reading orderaware.Note:the "0.jpg" to "<pagecount>.jpg" is simply appended to the path given here. I.e. if you set this to thumbs/thumb, the images must be named thumb0.jpgand so on, and be located in the folder thumbs. If you just give thumbs/(note the trailing slash!) the images must be named 0.jpgand so on.For a more flexible naming, it is also possible to use a 'variable' in the path, {{num}}, which will be replaced with the page number for which the thumbnail is loaded. In that case it is also possible / necessary to give the file extension. For example, thumbs/th{{num}}.pngwould load thumbnails thumb/th0.pngand so on.thumbscale ■Type:Number■Default:0.25This determines the size of thumbnails relative to the actual page size. Please note that using bigger thumbnails has a heavy impact on used memory, because thumbnails are never unloaded.thumbstatic ■Type:Boolean■Default:falseAllows to control whether page thumbnails should be dynamic or static. Per default, thumbnails are rerendered each frame, in case the page content changed. This is useful, e.g. when the page contains videos or other animated content.When set to true, the thumbnail will only be rendered once, when the page content finished loading. If the thumbpathattribute is set, the thumbnail will be generated from the loaded image, and the actual page content will never be rendered into the thumbnail.This attribute's value may be overwritten on a page side basis, using page@thumbstatic.waitfornoturning ■Type:Boolean■Default:trueDetermines whether to wait for all page animations (page turns actually, not drags) are finished before beginning to load new pages. This is only relevant if the book has more pages than may be kept in memory at a time (see maxloaded). When disabling this, the user is less likely to see blank pages when flipping through the pages very fast, but performance will most likely decrease.Due to the pagepreviewfunctionality it should not be necessary to disable this.zoomdoubleclick ■Type:Boolean■Default:falseSet this to trueto allow the user to switch between liquid scaling and the maximum zoom level.http://www.megazine3.de/doc/Book 2013/9/3
+</noscript>
+
+
+</body>
+</html>

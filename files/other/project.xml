@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flipbookmaker version="4.2.1" IsQuick="false" QuickFile="" ProjectName="C:\Users\prabhu\Documents\kvisoft\FlipBook Maker4\project\RCI INDIA NEWS LETTER\RCI INDIA NEWS LETTER.fb" DefaultName="RCI INDIA NEWS LETTER" SearchOrder="ltr" Google="" UseMiniMode="false" UsePSW="false" MiniWidth="400" MiniHeight="300" PSW="" StartPage="0" UseFlipSound="true" UseBackSound="false" UseSingleSound="false" BackSoundPath="" IsRight2Left="false" IsFastene="false" IsHardCover="1" IsHardPage="2" IsAnimate="true" IsCenterBook="true" IsLandScape="0" IsOpenBook="1" DragArea="top,middle,bottom" FlipSpeed="0.3" PageThick="0.1" SpineColor="13421772" Curvature="-0.5" PageBackColor="13421772" PageTranColor="0" FoldLine="0.5" ZoomStep="0.25, 0.5, 1, 2, 4, 8" UseReflection="false" RefTransparent="92" RefOffset="0" IsAutoPlay="false" IsRepeat="false" DurationPlay="3" Preloader="pageturning" LoadText="" PowerBy="" NavigationStyle="" ButtonStyle="" ShowCover="true" ShowPreNext="true" ShowPlayStop="true" ShowScreen="true" ShowToc="true" ShowZoom="true" ShowBookmark="true" ShowDownload="true" DownloadUrl="" ShowText="true" ShowSlider="false" ShowShare="true" ShowPrint="true" ShowZoomBar="true" ShowSearch="true" ShowSearchBox="true" ShowMusic="true" ShowThumbnail="true" ShowExit="true" ShowBookCase="true" ButtonScale="0" IntroMovie="" IntroEffect="" Scene="" ShowAbout="true" ShowDraw="true" ShowLang="false" UseGradient="false" Edge="1" EdgeColor="13421772" TemplateGroup="float" TemplateName="crystal" ExeTitle="" HtmlTitle="" HtmlKeywords="" HtmlDescription="" HtmlScript="" PageWidth="1232" PageHeight="1600" CoverWidth="1232" CoverHeight="1600" Langs="en" LangHints="English" BookLangs="en,jp,fr,de,ar">
+  <book title=" " plugins="navigationbar, keyboardnavigation, links, password, pdflinks, anchors, index, titles, search, gestures, draw, tuio, slideshow,javascript,swfaddress,print,thumbnails,bookmarks,select,musicplayers, toc, share, about, bookcase" pagewidth="1232" pageheight="1600" searchindex="files/search_index/en.txt" stiffskew="1" guipath="files/gui/" asulextension="xml" lang="en,jp,fr,de,ar" langpath="files/langs/" flagpath="files/flags/" pluginpath="files/plugins/" priorities="vid(20); snd(15); area(5); nav(5); txt(5); gal(30)" reflectionalpha="0.08" sndpath="files/snd/" dragspeed="0.3" password="" pwstart="0" thumbloadtext="Loading" zoommaxscale="2" zoomminscale="0.1" zoomsnap="0.25, 0.5, 1, 2, 4, 8" zoomstep="" slidestart="false" slidedelay="3" sliderepeat="false" toc="files/data/toc.xml" bookcase="files/data/bookcase.xml" download="" minimode="false" miniwidth="400" miniheight="300" layout="files/data/layout.xml" buttoncfg="files/data/buttoncfg.xml" about="files/data/about.xml" abc="cidc">
+    <background>
+      <box name="" anchors="0,0,ph,pw"/>
+    </background>
+    <bookmarks/>
+    <chapter pagewidth="1232" pageheight="1600">
+      <page stiff="true" stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_1_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiff="true" stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_2_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+        <vid left="320" top="737" width="779" height="586" alpha="1" rotation="0" caption="Video 1" loop="true" onlywhenactive="false" stoptopreview="true" src="C:\Users\prabhu\Downloads\Pexels Videos 2652.mp4"/>
+      </page>
+    </chapter>
+    <chapter pagewidth="1232" pageheight="1600">
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_3_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_4_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_5_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_6_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_7_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_8_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_9_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_10_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_11_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_12_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="1232" pageheight="1600">
+      <page stiff="true" stiffskew="1">
+        <img width="1232" height="1600" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\prabhu\AppData\Local\Temp\flipbook_{8B38AE21-EECF-4E7C-92B0-6A0F7A15DAE4}\files\pages\en\low\RCI INDIA NEWS LETTER_13_{AB74EC71-EFCC-4205-9682-53E34C62DE82}_en.swf</src>
+        </img>
+      </page>
+    </chapter>
+  </book>
+  <MyFont Name="Verdana" Color="5395026" Size="12" Style="1" Text=" " Url=""/>
+  <Backgd UseBackImg="true" BackColor1="10066329" BackColor2="335544" ColorStyle="radial" ImagePath="files/assets/skin/bg.png" ImageStyle="Tile" TransParent="10" AType="0"/>
+  <Logo Name="" Color="0" Size="0" Style="0" Text="" Url="" UseLogo="false" UseImage="false" ImagePath="" ImageTrans="0" BackColor="0" Width="100" Height="100" Target="_blank"/>
+  <FontObj Name="" Color="0" Size="0" Style="0"/>
+  <Bookmarks/>
+  <Playlist skin="" miniskin="" startmini="false" onlywhenactive="false" playmode="1" loopmode="1"/>
+  <BookCase/>
+</flipbookmaker>

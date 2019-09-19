@@ -1,0 +1,167 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+<title>123123</title>
+<META NAME="description" content="Book -MegaZine3 页码，7/20■ Type:Boolean■ Default:falseIf set to true, the system language of the user opening the book will not be regarded when determining the default language, but instead the fi">
+
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style>
+body { margin: 0px; overflow:hidden }
+</style>
+
+<script type="text/javascript">
+  var errorName = null;
+    function isBrowserSupportPlugin() {
+        var supported = null; 
+        try {
+            new ActiveXObject("");
+        }
+        catch (e) {
+            // FF has ReferenceError here
+            errorName = e.name; 
+        }     
+        try {
+            supported = !!new ActiveXObject("htmlfile");
+        } catch (e) {
+            supported = false;
+        }
+        if(errorName != 'ReferenceError' && supported==false){
+            supported = false;
+        }else{
+            supported =true;
+        }
+        return supported;
+    }
+
+  function isMetroIE() {
+    var matchIE = /MSIE\s([\d.]+)/;
+    if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())
+      return true;
+    else 
+      return false;
+  }
+  
+  var iRegex = /android|(iP(hone|ad))/i;
+  if (iRegex.test(navigator.userAgent) || isMetroIE()){
+      var url= "../html5.html?page=6";
+      if( false &&  window.parent)
+         window.parent.location=url;
+      else
+         window.location =url;
+   }
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" MARGINHEIGHT="0" MARGINWIDTH="0" scroll="no">
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=7",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+
+<noscript>
+Book -MegaZine3 页码，7/20■ Type:Boolean■ Default:falseIf set to true, the system language of the user opening the book will not be regarded when determining the default language, but instead the first entry in the langattribute will always be used. Normally the user's system language will be used (if available via set localizations, defined in the lang attribute).instantjumpcount ■ Type:Integer■ Default:5The number of pages that can be turned (via navigation or other programmatic means) before the pages are turned instantly, meaning without animation.lang ■ Type:String■ Default:enThe id of the localizations available to use for the GUI tool tips and texts, as well as book elements.This can be a list of ids separated by commas (e.g. en,de,it). The first entry in the list will be used as the default language. If the system language (i.e. the language set in the operating system of the user) is in the list it will be used as the default language (unless suppressed using the ignoresyslangattribute).The engine attempts to load files from the subfolders named with the same language code located in the folder set using the langpathattribute. Inside these language code folders (e.g. langs/de/the engine will look for one XML used by the engine itself (megazine.xml), and one XML for each loaded pluginwhich requires localization (where the file is named like the plugin, in the case of the galleryplugin e.g. gallery.xml).At least one language must be given (if none are specified the engine tries to load English per default).langpath ■ Type:URL■ Default:langs/Path to a folder containing localization files (see lang). This can either be an absolute path, or a relative path (in which case the path will be relative to the engine, i.e. the megazine.swffile).langwarn ■ Type:Boolean■ Default:falseDetermines whether to show warning strings if a localization cannot be found. If no warnings are to be shown, the text areas for which no localized string can be found will remain blank.licensekey ■ Type:stringIf you are a commercial user and have a license key, that public key goes here.http://www.megazine3.de/doc/Book 2013/9/3
+</noscript>
+
+
+</body>
+</html>

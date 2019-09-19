@@ -1,0 +1,167 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+<title>123123</title>
+<META NAME="description" content="Book -MegaZine3 页码，6/20autodrag vs. manual drag, use of reflections, whether the help was opened once before and more.When testing it can be useful to disable reading and writing these settings.fla">
+
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style>
+body { margin: 0px; overflow:hidden }
+</style>
+
+<script type="text/javascript">
+  var errorName = null;
+    function isBrowserSupportPlugin() {
+        var supported = null; 
+        try {
+            new ActiveXObject("");
+        }
+        catch (e) {
+            // FF has ReferenceError here
+            errorName = e.name; 
+        }     
+        try {
+            supported = !!new ActiveXObject("htmlfile");
+        } catch (e) {
+            supported = false;
+        }
+        if(errorName != 'ReferenceError' && supported==false){
+            supported = false;
+        }else{
+            supported =true;
+        }
+        return supported;
+    }
+
+  function isMetroIE() {
+    var matchIE = /MSIE\s([\d.]+)/;
+    if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())
+      return true;
+    else 
+      return false;
+  }
+  
+  var iRegex = /android|(iP(hone|ad))/i;
+  if (iRegex.test(navigator.userAgent) || isMetroIE()){
+      var url= "../html5.html?page=5";
+      if( false &&  window.parent)
+         window.parent.location=url;
+      else
+         window.location =url;
+   }
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" MARGINHEIGHT="0" MARGINWIDTH="0" scroll="no">
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=6",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+
+<noscript>
+Book -MegaZine3 页码，6/20autodrag vs. manual drag, use of reflections, whether the help was opened once before and more.When testing it can be useful to disable reading and writing these settings.flashmenuitems ■ Type: Boolean■ Default: falseAllows toggling the display of the built-in Flash context-menu items, such as zoom in / out, which might interfere with the book's functionality.foldfx ■ Type: Number■ Default: 0.5The default alpha value of folding effects for pages. If set to 0folding effects are turned off, 1means 100% opaque. Folding effects refer to a shadow inbetween two pages, simulating a curvature of the pages.The folding effect in the middle of two pages.guipath ■ Type: URL■ Default: gui/Path relative to the engine to a folder containing ASUL definitionfiles for the GUI, i.e. megazine.asuland gallery.asul.handcursor ■ Type: Boolean■ Default: falseDetermines whether to use the default hand cursor (that is also used for links, e.g.), instead of the custom arrow cursors defined in the megazine.asulfile, when hovering areas that trigger a page drag or turn or images that have galleryentry.Left: handcursor="true", ignoresides right: default.■ Type: Boolean■ Default: false■ Deprecated: use dragarea="top,bottom"instead.If set to true, the sides of the book's pages won't be used to trigger page turns on clicks. Only corners will be used.This will open the side areas for interactivity with the pages' contents, e.g. if you use loaded SWFs with interactivity such as forms you might consider disabling the sides to gain more interactive space for, say, buttons.ignoresyslang http://www.megazine3.de/doc/Book 2013/9/3
+</noscript>
+
+
+</body>
+</html>

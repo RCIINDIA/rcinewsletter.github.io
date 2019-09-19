@@ -1,0 +1,167 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+<title>123123</title>
+<META NAME="description" content="Book -MegaZine3 页码，18/20Determines the smallest size to which to downscale the pages, as a percentage value. E.g. if set to 0.25the book can get smaller to completely fit into the available space u">
+
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style>
+body { margin: 0px; overflow:hidden }
+</style>
+
+<script type="text/javascript">
+  var errorName = null;
+    function isBrowserSupportPlugin() {
+        var supported = null; 
+        try {
+            new ActiveXObject("");
+        }
+        catch (e) {
+            // FF has ReferenceError here
+            errorName = e.name; 
+        }     
+        try {
+            supported = !!new ActiveXObject("htmlfile");
+        } catch (e) {
+            supported = false;
+        }
+        if(errorName != 'ReferenceError' && supported==false){
+            supported = false;
+        }else{
+            supported =true;
+        }
+        return supported;
+    }
+
+  function isMetroIE() {
+    var matchIE = /MSIE\s([\d.]+)/;
+    if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())
+      return true;
+    else 
+      return false;
+  }
+  
+  var iRegex = /android|(iP(hone|ad))/i;
+  if (iRegex.test(navigator.userAgent) || isMetroIE()){
+      var url= "../html5.html?page=17";
+      if( false &&  window.parent)
+         window.parent.location=url;
+      else
+         window.location =url;
+   }
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" MARGINHEIGHT="0" MARGINWIDTH="0" scroll="no">
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=18",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+
+<noscript>
+Book -MegaZine3 页码，18/20Determines the smallest size to which to downscale the pages, as a percentage value. E.g. if set to 0.25the book can get smaller to completely fit into the available space until it's at 25% of its original size.If minscale != maxscalethen Liquid Scalingis enabled.zoomsnap ■Type:String■Default:0.25,0.5,1,2,4,8A comma separated list of numbers, which define the zoom steps to which to "snap". This means that when the zoom level passes one of these values, it will stop at the snap value. For example, if the current zoom level is 0.4 and the user zooms in, and this would normally result in a zoom level of 0.6, with the default settings the new zoom level would be 0.5, because it is given in this list.The idea is to make it easier for users to reach zoom levels where the book scaling looks better -multiples of two, because in the case interpolation evens out to every second pixel; otherwise there can be interpolation artifacts.Note on usage: in combination with book@zoomstepsthis can lead to unwanted effects. Specifically, the actual number of zoomsteps might differ from the one given, because the snaps will likely result in additional steps. There are two ways to work around this:■disable snapping by setting this setting to an empty value (<book zoomsnap="">).■only use zoomsnap values as zoomsteps. To do this, set book@zoomstepsto 2 (<book zoomsteps="2">). This way the only "normal" zoom levels would be book@zoomminscaleand book@zoommaxscale, but the zooming would snap to each of the given zoom snap levels when zooming, because they will always be "passed".Liquid Scalingwill always count as a "dynamic" snap level. I.e. when allowed (see book@zoomliquidscaling) and passing over the zoomlevel that would currently be set were liquid scaling enabled, the zoom level will snap to that level, and liquid scaling would be enabled again.zoomsteps ■Type:Integer■Default:5This defines the number of zoom steps. I.e. when zooming in or out, using either the mouse wheel or the buttons in the navigationbar, or calling the respective functions in the API without a parameter, how many steps there will be.That is to say if book@zoomminscaleis set to 0.5and book@zoommaxscaleis set to 2.5, and this attribute is set to 5, that means that in this case there are 5 steps, being equidistantly distributed: 0.5, 1.0, 1.5, 2.0and 2.5.Important: also see book@zoomsnapfor possible side effects, causing a different number of actual zoom steps than given here, and how to work around it.Liquid Scalinghas a similar effect, possibly adding another level, increasing the number of steps by one. To disable liquid scaling, see book@zoomliquidscaling.Note:in version 2.0.6 the behavior is a little different. In this version the attribute is a number, and takes the inverse of the number of steps to use (i.e. 1 / value). This was changed to this approach for 2.0.7+ to be more intuitive to use.http://www.megazine3.de/doc/Book 2013/9/3
+</noscript>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookinfo version="4.2.1" pageWidth="1232" pageHeight="1600" title=" " companyURL="www.kvisoft.com/flipbook-maker-pro/" gateway="http://www.kvisoft.com/flipbook-maker/email.php" rightToLeft="false" autoFlipSeconds="5" bgColor="4539717" bgImage="" autoFlip="false" companyName="kvisoft.com" ab="1bdecb7c457" hardCover="false" password="" analyticsUA="">
+  <leftmenu showTabBackground="false" visible="false" hideAfterZoom="false">
+    <issues visible="false" icon=""/>
+    <toc visible="true" icon="content/images/btnContents.png"/>
+    <thumbs visible="true" icon="content/images/btnThumbs.png"/>
+    <sns visible="true" icon=""/>
+    <print visible="true" icon=""/>
+    <pdf visible="false" icon=""/>
+    <download visible="false" icon=""/>
+    <setting visible="true" icon=""/>
+    <about visible="true" icon=""/>
+    <close visible="false" icon=""/>
+  </leftmenu>
+  <bottommenu background="content/images/menuBackground.png" visible="false" iconSameSize="false" position="top" hideAfterZoom="false" autoHideOnFullScreen="false" showBackground="false">
+    <help visible="true" icon=""/>
+    <info visible="true" icon="" url="http://www.kvisoft.com/flipbook-maker/"/>
+    <zoom visible="true" icon="content/images/btnZoom.png"/>
+    <autoflip visible="true" icon=""/>
+    <search visible="true" icon=""/>
+    <hightlight visible="true" icon=""/>
+    <bookmark visible="true" icon="content/images/btnBookMark.png"/>
+    <notes visible="true" icon=""/>
+    <fullscreen visible="true" icon=""/>
+    <sound visible="true" icon=""/>
+    <back visible="true" icon="content/images/btnPrevPage.png"/>
+    <next visible="true" icon="content/images/btnNextPage.png"/>
+  </bottommenu>
+</bookinfo>
